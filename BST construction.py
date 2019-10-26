@@ -39,7 +39,8 @@ class BST:
 
         return False
         
-        
+    # Average O(Log(n)) time | O(1) space (Iteration)
+    # Worst case: O(n) time | O(1) space    
     def remove(self, value, parentNode = None):
         
         
@@ -164,7 +165,9 @@ class BST:
                 return True            
 
         return False        
-    
+
+    # Average O(Log(n)) time | O(1) space (Iteration)
+    # Worst case: O(n) time | O(1) space    
     def remove(self, value, parentNode = None):
 
         # 현재 노드의 값을 지정한다.
